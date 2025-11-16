@@ -1,12 +1,15 @@
 #include <stdio.h>
+#include <stdlib.h>
+#include <locale.h>
 
+// FEITO NO CODE BLOCKS
 // Desafio Super Trunfo - Países
 // Tema 1 - Cadastro das cartas
 // Objetivo: No nível novato você deve criar as cartas representando as cidades utilizando scanf para entrada de dados e printf para exibir as informações.
 
 int main() {
-  // Área para definição das variáveis para armazenar as propriedades das cidades
-  char estado1 = 'R';
+    // Área para definição das variáveis para armazenar as propriedades das cidades
+    char estado1 = 'R';
     char codigo_carta1 [4] = "R01";
     char nome_cidade1 [25] = "Gramado";
     int populacao1 = 40134;
@@ -22,10 +25,8 @@ int main() {
     float pib2 = 80.10; // %
     int pontos_turisticos2 = 15;
 
-  // Área para entrada de dados
-
-  // Área para exibição dos dados da cidade
-  setlocale(LC_ALL, "");
+    // Área para exibição dos dados das cartas.
+    setlocale(LC_ALL, ""); //Também reconhece a acentuação nas palavras.
 
     printf("SUPER TRUNFO - CARTA I \n");
     printf("Letra do Estado: %c\n", estado1);
