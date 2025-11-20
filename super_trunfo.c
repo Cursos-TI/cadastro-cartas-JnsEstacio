@@ -4,7 +4,6 @@
 #include <locale.h>
 
 // Jailton N Silva - Aluno Estacio de Sá em Ciência da Computação - Pólo São José - Campina Grande-PB
-// FEITO NO CODE BLOCKS
 // Desafio Super Trunfo - Países
 // Tema 1 - Cadastro das cartas
 // Objetivo: No nível novato você deve criar as cartas representando as cidades utilizando scanf para entrada de dados e printf para exibir as informações.
